@@ -1,0 +1,102 @@
+body{
+    background: #348F50;  /* fallback for old browsers */
+background: -webkit-linear-gradient(to right, #56B4D3, #348F50);  /* Chrome 10-25, Safari 5.1-6 */
+background: linear-gradient(to right, #56B4D3, #348F50); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+
+}
+.container{
+    background: #2193b0;  /* fallback for old browsers */
+    background: -webkit-linear-gradient(to right, #6dd5ed, #2193b0);  /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to right, #6dd5ed, #2193b0); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+    
+    
+
+    height:400px;
+    width: 350px;
+    align-self: center;
+    margin: auto;
+
+}
+
+h1{
+    background-color: teal;
+    margin: 0;
+    text-align: left;
+    padding: 7px 12px ;
+    text-transform: uppercase;
+    font-weight: normal;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+
+#addToDo{
+    background: #2193b0;  /* fallback for old browsers */
+background: -webkit-linear-gradient(to right, #6dd5ed, #2193b0);  /* Chrome 10-25, Safari 5.1-6 */
+background: linear-gradient(to right, #6dd5ed, #2193b0); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+
+font-size: larger;
+    border: none;
+    line-height: 30px;
+    width: -moz-available;
+    padding: 7px 10px;
+    color: rebeccapurple;
+
+}
+
+ul{
+    padding: 0;
+    margin: 0;
+    list-style: none;
+    text-align: left;
+}
+
+li{ 
+    color:rebeccapurple;
+    line-height: 30px;
+    padding-left: 3px;
+    font-size: medium; 
+}
+.done{
+    text-decoration: line-through;
+    color: gray;
+    }
+img{
+    height:50px;
+    width:50px;
+   padding-left: 101px;
+   padding-top: 0;
+   padding-bottom: 0;
+   margin: 0;
+}
+.fa-plus{
+    padding-left:120px;
+    color: black;
+}
+span{
+    display: inline-block;
+    width: 15px;
+    color: brown;
+    transition: linear 0.3s;
+}
+li:hover span{
+    color: tomato;
+    display: inline-block;
+    text-align: center;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    background-color: black;
+    width: 25px;
+    height: 25px;
+    margin-right: 5px;
+   
+    }
+#plus{
+    transition: 1s,linear;
+    padding-left: 130px;
+    color:black;
+    
+    }
+#plus:hover{
+    color: brown;
+}
+.fade{
+   display: none;
+}
